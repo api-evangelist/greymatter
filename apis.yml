@@ -10,11 +10,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Enterprise
+  - Kubernetes
+  - Networking
   - Service Mesh
   - Zero Trust
-  - Networking
-  - Kubernetes
-  - Enterprise
 url: >-
   https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -32,10 +32,10 @@ apis:
     humanURL: https://greymatter.io/documentation/
     baseURL: https://greymatter.io
     tags:
+      - API Management
       - Platform
       - Service Mesh
       - Zero Trust
-      - API Management
     properties:
       - type: Documentation
         url: https://greymatter.io/documentation/
@@ -50,10 +50,10 @@ apis:
     humanURL: https://greymatter.io/platform/service-connectivity-layer/
     baseURL: https://greymatter.io
     tags:
-      - Service Mesh
       - Connectivity
-      - Traffic Management
       - Multi-Cloud
+      - Service Mesh
+      - Traffic Management
     properties:
       - type: Documentation
         url: https://greymatter.io/platform/service-connectivity-layer/
@@ -68,10 +68,10 @@ apis:
     humanURL: https://greymatter.io/platform/analytics-layer/
     baseURL: https://greymatter.io
     tags:
-      - Observability
       - Analytics
-      - Telemetry
       - Monitoring
+      - Observability
+      - Telemetry
     properties:
       - type: Documentation
         url: https://greymatter.io/platform/analytics-layer/
