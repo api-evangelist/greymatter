@@ -1,0 +1,13 @@
+{
+  "repo": "greymatter",
+  "feeds": [
+    {
+      "source": "https://greymatter.io/filtered/?_resource_type=blog",
+      "feed_url": "https://greymatter.io/feed/",
+      "saved": 10,
+      "title": "Greymatter.io"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:29:06Z"
+}
