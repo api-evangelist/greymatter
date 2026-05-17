@@ -84,11 +84,11 @@ common:
     url: https://greymatter.io/contact-support/
   - type: Blog
     url: https://greymatter.io/filtered/?_resource_type=blog
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://greymatter.io/privacy-policy/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://greymatter.io/terms-of-use/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/greymatter-io
 maintainers:
   - FN: Kin Lane
