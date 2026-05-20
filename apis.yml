@@ -76,6 +76,8 @@ apis:
       - type: Documentation
         url: https://greymatter.io/platform/analytics-layer/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/greymatterio
   - type: Website
     url: https://greymatter.io/
   - type: Documentation
