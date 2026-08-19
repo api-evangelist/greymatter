@@ -31,7 +31,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/apis.yml
 created: '2026-03-16'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: greymatter:greymatter-platform-api
     name: Greymatter Platform API
