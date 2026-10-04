@@ -53,7 +53,6 @@ apis:
       certificate management, and service connectivity configuration across
       Kubernetes and multi-cloud environments.
     humanURL: https://greymatter.io/documentation/
-    baseURL: https://greymatter.io
     tags:
       - API Management
       - Platform
@@ -71,7 +70,6 @@ apis:
       trust security, and service mesh capabilities including mesh connections
       across regions and cloud providers.
     humanURL: https://greymatter.io/platform/service-connectivity-layer/
-    baseURL: https://greymatter.io
     tags:
       - Connectivity
       - Multi-Cloud
@@ -89,7 +87,6 @@ apis:
       discovery across multi-cloud and multi-cluster deployments, and provides
       flow tracing and performance monitoring capabilities.
     humanURL: https://greymatter.io/platform/analytics-layer/
-    baseURL: https://greymatter.io
     tags:
       - Analytics
       - Monitoring
