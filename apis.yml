@@ -96,6 +96,12 @@ apis:
       - type: Documentation
         url: https://greymatter.io/platform/analytics-layer/
 common:
+  - type: Plans
+    url: plans/greymatter-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/greymatter-rate-limits.yml
+  - type: FinOps
+    url: finops/greymatter-finops.yml
   - type: DomainSecurity
     url: security/greymatter-domain-security.yml
   - type: LinkedIn
