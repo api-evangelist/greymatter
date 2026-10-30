@@ -1,4 +1,4 @@
-# Greymatter (greymatter)
+# Greymatter
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,79 +66,107 @@
 
 Greymatter is a Kubernetes-native, zero trust networking platform that delivers secure, agentic, and scalable service connectivity across multi-cloud, hybrid, and edge environments. It provides a unified platform with five integrated layers covering service connectivity, zero trust security, orchestration, observability analytics, and enterprise integration for distributed microservices architectures.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/apis.yml)
+**Areas:** Enterprise · Kubernetes · Networking · Service Mesh · Zero Trust
 
-## Scope
+## Greymatter on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for Greymatter is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/greymatter/](https://apis.io/providers/greymatter/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (3)
 
- - Service Mesh, Zero Trust, Networking, Kubernetes, Enterprise
+- [Greymatter Platform API](https://apis.io/apis/greymatter/greymatter-platform-api/) — The Greymatter Platform API provides programmatic access to configure and manage the Greymatter zero trust networking platform. It enables automation of…
+- [Greymatter Service Connectivity API](https://apis.io/apis/greymatter/greymatter-service-connectivity-api/) — The Greymatter Service Connectivity layer provides APIs for connecting services across all environments including on-premises, multi-cloud, and edge…
+- [Greymatter Analytics API](https://apis.io/apis/greymatter/greymatter-analytics-api/) — The Greymatter Analytics layer provides observability APIs that unify telemetry, audit trails, and zero trust visibility across all meshes and environments.…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16 
-- **Modified:** 2026-04-28 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Greymatter Platform API
-The Greymatter Platform API provides programmatic access to configure and manage the Greymatter zero trust networking platform. It enables automation of service mesh deployment, zero trust policy enforcement, certificate management, and service connectivity configuration across Kubernetes and multi-cloud environments.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://greymatter.io/documentation/](https://greymatter.io/documentation/)
+- [Greymatter Domain Security](https://apis.io/security/greymatter/greymatter-domain-security/)
 
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - Platform, Service Mesh, Zero Trust, API Management
+- [Greymatter Plans Pricing](https://apis.io/plans/greymatter/greymatter-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://greymatter.io/documentation/)
+Published request limits.
 
-### Greymatter Service Connectivity API
-The Greymatter Service Connectivity layer provides APIs for connecting services across all environments including on-premises, multi-cloud, and edge deployments. It delivers real-time traffic control, built-in zero trust security, and service mesh capabilities including mesh connections across regions and cloud providers.
+- [Greymatter Rate Limits](https://apis.io/rate-limits/greymatter/greymatter-rate-limits/)
 
-**Human URL:** [https://greymatter.io/platform/service-connectivity-layer/](https://greymatter.io/platform/service-connectivity-layer/)
+#### FinOps (1)
 
+What the API costs to run, by operation.
 
-#### Tags:
+- [Greymatter Finops](https://apis.io/finops/greymatter/greymatter-finops/)
 
- - Service Mesh, Connectivity, Traffic Management, Multi-Cloud
+## Where to find this API
 
-#### Properties
-
-- [Documentation](https://greymatter.io/platform/service-connectivity-layer/)
-
-### Greymatter Analytics API
-The Greymatter Analytics layer provides observability APIs that unify telemetry, audit trails, and zero trust visibility across all meshes and environments. It integrates with SIEMs and APMs, supports service discovery across multi-cloud and multi-cluster deployments, and provides flow tracing and performance monitoring capabilities.
-
-**Human URL:** [https://greymatter.io/platform/analytics-layer/](https://greymatter.io/platform/analytics-layer/)
-
-
-#### Tags:
-
- - Observability, Analytics, Telemetry, Monitoring
-
-#### Properties
-
-- [Documentation](https://greymatter.io/platform/analytics-layer/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://greymatter.io/)
 - [Documentation](https://greymatter.io/documentation/)
 - [Support](https://greymatter.io/contact-support/)
 - [Blog](https://greymatter.io/filtered/?_resource_type=blog)
-- [Privacy Policy](https://greymatter.io/privacy-policy/)
-- [Terms of Service](https://greymatter.io/terms-of-use/)
-- [GitHub Organization](https://github.com/greymatter-io)
+- [Terms of service](https://greymatter.io/terms-of-use/)
+- [Privacy policy](https://greymatter.io/privacy-policy/)
+- [GitHub](https://github.com/greymatter-io)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 16.5** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/greymatter/](https://apis.io/providers/greymatter/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Greymatter: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/greymatter/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
